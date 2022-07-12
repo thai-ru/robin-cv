@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.card{
+    @apply bg-gray-600 hover:bg-emerald-300 rounded overflow-hidden shadow-lg shadow-black hover:shadow-emerald-400;
+}
+
+.btn{
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer hover:bg-emerald-500 md:border-2 border-emerald-300;
+}
+
+.li{
+    @apply mr-2
+}
+.heading{
+    @apply bg-gray-900 text-gray-50 p-3
+}
+.subheading{
+    @apply border-b-4 border-rose-800 mt-4 font-semibold
+}
+.card2{
+    @apply bg-gray-800 rounded overflow-hidden shadow-black shadow-lg hover:bg-emerald-500;
+}
+.cardcert{
+    @apply bg-gray-800  rounded overflow-hidden shadow-lg shadow-black ;
+}
